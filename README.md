@@ -1,81 +1,76 @@
 # Estructuras de Datos en Python
 
+
+## Juan Jose Giraldo Monsalve
+
+
 ## Acerca de los desafíos completados
-Este repositorio contiene 5 ejercicios prácticos de programación en Python. Cada uno trabaja un tipo diferente de estructura de datos: listas, tuplas, diccionarios, conjuntos y comprehensions. El objetivo fue dominar el manejo de colecciones, el acceso a elementos y el filtrado eficiente de información.
 
----
+Este repositorio contiene la implementación de **5 estructuras de datos fundamentales en Python**, cada una con desafíos prácticos que demuestran su funcionalidad y aplicabilidad real, se han desarrollado soluciones completas para casos de uso reales como gestión de inventarios, catálogos de películas, análisis de ventas regionales, control de productos en múltiples sucursales y procesamiento eficiente de datos con comprehensions. Cada módulo incluye código ejecutable, capturas de pantalla de los resultados.
 
-## Visualización de los ejercicios resueltos
+## Estructura De Datos
 
-<details>
-  <summary><b>Módulo 1: Gestión de inventario (Listas)</b></summary>
-  <br>
+- **Listas**- Mutable, ordenada, con ejemplos de inventario
+- **Tuplas** - Inmutable, rápida, con catálogo de películas
+- **Diccionarios** - Pares clave-valor, análisis de ventas
+- **Conjuntos** - Elementos únicos, operaciones matemáticas
+- **Comprehensions** - Sintaxis compacta y eficiente
 
-  **Código fuente:**
-  ![Imagen lista](images/gestioninventario.png)
-
-  **Resultado al ejecutar:**
-  ![Ejecución lista](images/solmod1.png)
-</details>
-
-<details>
-  <summary><b>Módulo 2: Sistema de películas (Tuplas)</b></summary>
-  <br>
-
-  **Código fuente:**
-  ![Imagen tupla](images/sistemapeliculas.png)
-
-  **Resultado al ejecutar:**
-  ![Ejecución tupla](images/solmod2.png)
-</details>
-
-<details>
-  <summary><b>Módulo 3: Analisis de ventas por región (Diccionarios)</b></summary>
-  <br>
-
-  **Código fuente:**
-  ![Imagen diccionario](images/ventaregion.png)
-
-  **Resultado al ejecutar:**
-  ![Ejecución diccionario](images/solmod3.png)
-</details>
-
-<details>
-  <summary><b>Módulo 4: Tiendas y recomendaciones de peliculas (Conjuntos)</b></summary>
-  <br>
-
-  **Código fuente:**
-  ![Imagen conjunto](images/tiendayrecpeli.png)
-
-  **Resultado al ejecutar:**
-  ![Ejecución conjunto](images/solmod4.png)
-</details>
-
-<details>
-  <summary><b>Módulo 5: Analizador de ventas con las 3 comprehensions (Comprehensions)</b></summary>
-  <br>
-
-  **Código :**
-  ![Imagen comprehension](images.reto)
-
-  **Resultado al ejecutar:**
-  ![Ejecución comprehension](images/reto 5.png)
-</details>
-
----
-
-## Lo aprendido en cada módulo
+## Lo aprendido en cada Modulo y Su visualizacion de cada Reto
 
 - **Listas:** Construcción de inventarios dinámicos donde se puede modificar stock y precios mediante funciones personalizadas.
+
+**Codigo Inicial**
+
+![Reto_Lista](images/Reto%201.png)
+
+**Salida Codigo**
+
+![Salida_Lista](images/Salida%20Reto%201.png)
+
 - **Tuplas:** Creación de catálogos inmutables de películas, con desempaquetado y búsqueda por director.
+
+**Codigo Inicial**
+
+![Reto_Tupla](images/Reto%202.png)
+
+**Salida Codigo**
+
+![Salida_Tupla](images/Salida%20Reto%202.png)
+
 - **Diccionarios:** Organización de ventas por región y trimestre, aplicando cálculos de totales, porcentajes y rankings.
+
+**Codigo Inicial**
+
+![Reto_Diccionarios](images/Reto%203.png)
+
+**Salida Codigo**
+
+![Salida_Diccionarios](images/Salida%20Reto%203.png)
+
 - **Conjuntos:** Comparación de productos entre varias tiendas usando unión, intersección y diferencia.
+
+**Codigo Inicial**
+
+![Reto_Conjuntos](images//Reto%204.png)
+
+**Salida Codigo**
+
+![Salida_Conjuntos](images/Salida%20Reto%204.png)
+
 - **Comprehensions:** Sustitución de bucles tradicionales por expresiones compactas para crear listas, diccionarios y conjuntos a partir de datos de ventas.
+
+**Codigo Inicial**
+
+![Reto_Comprehensions](images/Reto%205.png)
+
+**Salida Codigo**
+
+![Salida_Comprehensions](images/Salida%20Reto%205.png)
 
 ---
 
 ## Reflexión personal
 
-Realizar estos ejercicios me permitió saber que el escribir código en Python no solo implica lograr un resultado correcto, sino también escoger la estructura adecuada para que el programa sea más claro y rápido.
-
-Me sorprendió lo útiles que son los conjuntos para detectar productos únicos o compartidos entre varias listas. También las comprehensions me parecen una manera mucho más limpia de transformar datos sin necesidad de escribir varias líneas con varios bucles, haciendo que sea mucho mas rapido todo. Esta práctica me ha dejado una mejor base de conocimiento sobre las estructuras de datos en Python.
+- El aprender-practicar hacer cada uno de estos modulos me dio una claridad de lo muy usables que pueden llegar a ser lo diferentes tipos de **Listas** las **Tuplas**, **Conjuntos**, **Comprehensions** todo esto me ayudo a entender que Python no es solamente escribir codigo para que me de un buen resultado, si no tambien lleva un proceso el cual es escoger la estructura para que sea limpio y claro.
+- Las estructuras de datos son los pilares fundamentales de la programación. Dominarlas no es solo un requisito técnico, sino una inversión en la calidad y profesionalismo del código que escribiré en el futuro. 
