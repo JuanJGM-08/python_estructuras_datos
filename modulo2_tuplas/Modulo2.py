@@ -14,7 +14,7 @@ for titulo, director, anio, puntuacion in catalogo:
 
 
 # separaremos la primera pelicula con el operador *
-primera, *resto = catalogo
+primera, *_ = catalogo  # el _ lo usaremos para que ignore el resto
 print(f"\nPrimera película: {primera[0]}")
 
 # Buscar películas por director
